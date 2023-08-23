@@ -12,3 +12,8 @@ git push -u origin main
 git remote add origin git@github.com:ilkgithub/<herhangi repo>.git
 git branch -M main
 git push -u origin main
+
+
+git pull origin main --allow-unrelated-histories // farklı dosyalara sahip repodan locala pull etmek için
+
+git clone https://github.com/ilkgithub/ilkgithub.git  //bir repo yu bir directory ye clone lamak için
